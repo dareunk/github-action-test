@@ -2,7 +2,7 @@ name: learn-github-action
 run-name: ${{github.actor}}learning github action
 on:
   push:
-    branches: [master]
+    branches: [main]
 jobs:
   check-out-version:
     runs-on: ubuntu-latest
